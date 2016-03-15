@@ -1,4 +1,4 @@
-# HTML-CSS-Puzzles
+# HTML & CSS-Puzzles
 Examples of problems that you encountered and solved.
 
 Fork this repository and then add a file with your example problem / puzzle in it. Give the file a unique name, say: *my-problem.html*
