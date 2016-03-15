@@ -6,14 +6,25 @@
   <meta charset='utf-8'/>
 
   <style>
-    // CSS for your example goes here.
-    
+    body { font-family: helvetica, arial, sans-serif; }
+    p { width: 40%; }
+    .problem { color: red; }
   </style>
 </head>
 <body>
-  <p></p>
+  <p>
+    This page has two paragraphs. You should only be seeing two of them. Can you figure out why the other one is missing?
+    Type Control-U (or Command-Alt-U on a Mac) to see the source code of this page.
+  </p>
   
-  <p>This paragraph starts with a malformed tag. You shouldn't see it.</p>
+  <p>
+    This paragraph was the invisible paragraph, The problem was that it looked like this:
+    <pre>
+       <span class="problem">&lt;p</span> This paragraph is invisible, do you see the problem?&lt;/p&gt;
+    </pre>
+  </p>
+    
+  <p>This should be the third paragraph.</p>
   
 </body>
 </html>
